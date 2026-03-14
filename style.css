@@ -7,21 +7,21 @@ Fonts: Syne (display) + DM Sans (body)
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap');
 
 :root {
---bg-base: #0b0f19;
---bg-card: #141b2d;
---bg-nav: #0f1629;
---border: #1f2937;
---border-lit: #2d3a52;
+--bg-base: #bd397b;
+--bg-card: #b31865;
+--bg-nav: #691247;
+--border: #b1358c;
+--border-lit: #b8409a;
 
---purple: #8b5cf6;
+--purple: #c4b5fd;
 --purple-dim: rgba(139, 92, 246, 0.15);
 --purple-glow: rgba(139, 92, 246, 0.4);
---pink: #f472b6;
+--pink: #e74599;
 --cyan: #22d3ee;
 
 --text: #e4e6eb;
 --text-muted: #a0a3bd;
---text-dim: #6b7280;
+--text-dim: #c4b5fd;
 --white: #ffffff;
 
 --font-display: 'Syne', sans-serif;
@@ -173,7 +173,7 @@ HERO
 ───────────────────────────────────────────── */
 .hero {
 min-height: calc(100vh - var(--nav-h));
-background: linear-gradient(135deg, #0b0f19, #111827, #1a1f35);
+background: linear-gradient(135deg, #803b5d, #72214d, #832764);
 display: flex;
 align-items: center;
 justify-content: center;
